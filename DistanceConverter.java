@@ -150,7 +150,7 @@ public class DistanceConverter extends javax.swing.JFrame {
         
         
     }                                          
-
+// Clear all button
     private void btnClearActionPerformed(java.awt.event.ActionEvent evt) {                                         
         txtKilometers.setText("");
         txtMiles.setText("");
@@ -200,7 +200,7 @@ public class DistanceConverter extends javax.swing.JFrame {
     private javax.swing.JTextField txtKilometers;
     private javax.swing.JTextField txtMiles;
     // End of variables declaration                   
-
+// method with the math 
     private double convertToMiles(double kilometers) {
        return kilometers * 0.6214;
     }
